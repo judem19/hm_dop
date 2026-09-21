@@ -1,6 +1,9 @@
 #include <assert.h>
 #include <stdio.h>
-#include "solution.c"
+
+int kopeyki(int a, int b, int n) {
+    return (b * n) % 100;
+}
 
 int main() {
     assert(kopeyki(10, 50, 2) == 0);
